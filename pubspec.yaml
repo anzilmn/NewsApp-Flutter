@@ -1,0 +1,68 @@
+# pubspec.yaml
+
+name: news_app
+description: A new Flutter project.
+
+# This command generates the necessary code for localization
+# Run 'flutter gen-l10n' after updating
+flutter:
+  generate: true 
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # ✅ Localizations (REQUIRED for Language Selection)
+  flutter_localizations:
+    sdk: flutter
+  
+  # State Management and Utilities
+  provider: ^6.1.1 
+  equatable: ^2.0.5
+  
+  # External Package Integration
+  url_launcher: ^6.2.2          # For opening full articles in a browser
+  shared_preferences: ^2.2.2     # For persisting Theme and Language settings
+  
+  # Functional programming (for error handling with Either)
+  dartz: ^0.10.1
+  
+  # HTTP Client
+  dio: ^5.4.0 
+  
+  # Dependency Injection
+  get_it: ^7.6.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  
+  # ✅ Localization Tooling (Required for generating strings from .arb files)
+  intl: ^0.20.2
+
+  # ⬅️ ADD THIS PACKAGE FOR ICON GENERATION
+  flutter_launcher_icons: "^0.13.1" 
+
+
+# ----------------------------------------------------
+# ⬅️ ADD THIS CONFIGURATION BLOCK AT THE END OF THE FILE
+# ----------------------------------------------------
+flutter_icons:
+  # The image path where your desired app icon is located.
+  # Create a folder named 'assets' in the root of your project
+  # and place your icon file (e.g., app_icon.png) inside it.
+  image_path: "assets/images/news.png"
+  
+  # Specify the platforms where the icon should be generated.
+  android: true
+  ios: true 
+  
+  # OPTIONAL: Set to true if you want a transparent icon background on older Android devices.
+  # adaptive_icon_background: "#FFFFFF" 
+  
+  # OPTIONAL: Specify a different path for the foreground layer of Android adaptive icons.
+  # adaptive_icon_foreground: "assets/app_icon_foreground.png"
