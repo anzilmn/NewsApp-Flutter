@@ -1,25 +1,3 @@
-# running_game
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-
-
-
-
-
-
 
 IMPORTANT THING BEFORE USING THIS
 
@@ -35,3 +13,6 @@ Resolution: If this error occurs, access will be blocked until the time window p
 
 
 EXAMPLE ::: Think of it like a battery: once the battery (your quota) is empty, you have to plug it in and wait (the time period) before you can use the app again.
+
+
+SO IF API REQUEST IS FINISHED EITHER U WAIT IT TO RESET AND START AGAAIN OR U CAN CHANGE THE API FROM THE SAME WEBSITE (https://newsapi.org/) 
